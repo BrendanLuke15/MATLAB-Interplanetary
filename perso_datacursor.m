@@ -1,0 +1,16 @@
+function output_txt = perso_datacursor(~,event_obj)
+% Customized data cursor for porkchop contour plots
+% - comment or uncomment time of flight (TOF) display in days or years as needed below
+X = event_obj.Position(1);
+Y = event_obj.Position(2);
+Z = event_obj.Position(3);
+[~,idx_X] = max(X==event_obj.Target.XData);
+[~,idx_Y] = max(Y==event_obj.Target.YData);
+
+output_txt = {['Departure: ',datestr(datetime(X,'ConvertFrom','datenum'))];...
+             ['Arrival: ',datestr(datetime(Y,'ConvertFrom','datenum'))];...
+             ['Level: ',num2str(Z,3)];...
+             [ 'TOF: ',num2str(Y-X,'%d'),' days'];...
+%              [ 'TOF: ',num2str(Y-X/365.254,'%d'),' years'];...
+             [ 'Indices: (',num2str(idx_X,'%d'),', ',num2str(idx_Y,'%d'),')']};
+end

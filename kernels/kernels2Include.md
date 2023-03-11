@@ -1,4 +1,4 @@
-Include the following generic kernels in this directory, available from [NAIF](https://naif.jpl.nasa.gov/pub/naif/generic_kernels/):
+Include the following generic kernels in this directory in your local install, available from [NAIF](https://naif.jpl.nasa.gov/pub/naif/generic_kernels/):
 
 - ephemeris kernel; e.g. de440.bsp
 - leap seconds kernel; naif0012.tls or most recent

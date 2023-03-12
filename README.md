@@ -20,6 +20,7 @@ The collection of scripts rely on the [SPICE toolkit](https://naif.jpl.nasa.gov/
 ## How to Use
 
 ## License
+This package is licensed under the MIT license. See [NAIF](https://naif.jpl.nasa.gov/naif/rules.html) for rules regarding the SPICE toolkit.
 
 ## Methodology
 
@@ -29,3 +30,14 @@ Find information for each function included in this package:
 (table w/ hyperlinks?, wip)
 
 ## Credit
+**SPICE Toolkit:**
+
+Acton, C.H.; "Ancillary Data Services of NASA's Navigation and Ancillary Information Facility;" Planetary and Space Science, Vol. 44, No. 1, pp. 65-70, 1996.
+[DOI 10.1016/0032-0633(95)00107-7](https://doi.org/10.1016/0032-0633(95)00107-7)
+
+Charles Acton, Nathaniel Bachman, Boris Semenov, Edward Wright; A look toward the future in the handling of space science mission geometry; Planetary and Space Science (2017);
+[DOI 10.1016/j.pss.2017.02.013](https://doi.org/10.1016/j.pss.2017.02.013)
+
+**Methodologies:**
+
+Bate, R. R., Mueller, D. D., & White, J. E. (1971). Fundamentals of Astrodynamics. Dover Publications. [(Google books link)](https://books.google.ca/books/about/Fundamentals_of_Astrodynamics.html?id=CgRxKvZ6l80C&source=kp_book_description&redir_esc=y)
